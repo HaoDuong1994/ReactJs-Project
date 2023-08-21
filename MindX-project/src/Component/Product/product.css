@@ -1,0 +1,28 @@
+.product-list-wrapper{
+    width: 100%;
+    display:flex;
+    flex-direction: column;    
+    justify-content: center; 
+    align-items: center;
+}
+.product-img-cover{
+    width: 900px;
+    height:300px;
+}
+
+.list-item-product{
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr) ;
+    gap: 1rem;
+}
+
+.item-product{
+    width: 200px;
+    height:420px;
+    border: solid 2px black;
+}
+.item-product-img{
+    width:200px;
+    height:250px;
+}

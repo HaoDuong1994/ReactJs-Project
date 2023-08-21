@@ -1,0 +1,14 @@
+.header{
+    background-color: rgb(119, 85, 85);
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    
+}
