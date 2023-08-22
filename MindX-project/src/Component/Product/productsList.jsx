@@ -125,4 +125,128 @@ export let productList = [
     price: 700000 + " vnd",
     sold: "Đã bán " + "6k cái",
   },
+  {
+    id: 11,
+    type: "quan",
+    img: [
+      "https://product.hstatic.net/1000366669/product/q312_cdf2f26c4d0341239624a21189d62988_large.jpg",
+      "https://down-vn.img.susercontent.com/file/vn-11134201-23030-2dadbaq8r0nvf1",
+    ],
+    name: "QUẦN ADAM ĐEN MỎNG TRƠN Q312",
+    detail:
+      "Việc chọn một chiếc quần tây nam dáng baggy với giá nhỉn hơn 100k luôn khiến cậu phân vân vì: Chất lượng vải kém? Đường may không tốt? Form dáng quần không chuẩn làm cậu mặc vào cảm thấy chật/ rộng và bị lộ nhiều khuyết điểm",
+    price: 1500000 + " vnd",
+    sold: "Đã bán " + "2k cái",
+  },
+  {
+    id: "12",
+    type: "quan",
+    img: [
+      "https://product.hstatic.net/1000366669/product/q3071_21bad943e832492aa5923621a5e5f02d_master.jpg",
+    ],
+    name: "QUẦN ADAM BE SÁNG Q307",
+    detail:
+      "Việc chọn một chiếc quần tây nam dáng baggy với giá nhỉn hơn 100k luôn khiến cậu phân vân vì: Chất lượng vải kém? Đường may không tốt? Form dáng quần không chuẩn làm cậu mặc vào cảm thấy chật/ rộng và bị lộ nhiều khuyết điểm",
+    price: 1000000 + " vnd",
+    sold: "Đã bán " + "4k cái",
+  },
+  {
+    id: "13",
+    type: "quan",
+    img: [
+      "https://product.hstatic.net/1000366669/product/q299_55ce948ae2f84ac3b2d3f74ad3758364_large.jpg",
+    ],
+    name: "QUẦN ADAM GHI KẺ NÂU ĐEN Q299",
+    detail:
+      "Việc chọn một chiếc quần tây nam dáng baggy với giá nhỉn hơn 100k luôn khiến cậu phân vân vì: Chất lượng vải kém? Đường may không tốt? Form dáng quần không chuẩn làm cậu mặc vào cảm thấy chật/ rộng và bị lộ nhiều khuyết điểm",
+    price: 1500000 + " vnd",
+    sold: "Đã bán " + "6k cái",
+  },
+  {
+    id: "14",
+    type: "quan",
+    img: [
+      "https://product.hstatic.net/1000366669/product/_ntt3422_3dfae9889d29431992edc55ffd8fb3c7_large.jpg",
+      "https://product.hstatic.net/1000366669/product/q287_ced5a06822fb4ecc924f7bd9029e9308_large.jpg",
+    ],
+    name: "QUẦN ÂU XANH GHI XƯỚC - Q287",
+    detail:
+      "Trendyman xin phép giới thiệu đến các bạn mẫu sản phẩm mới: Quần Tây Nam - quần nam Công Sở Đen Cá Tính Dáng Ôm Chuẩn Vải mỏng nhẹ Không Nhăn không xù",
+    price: 950000 + " vnd",
+    sold: "Đã bán " + "7k cái",
+  },
+  {
+    id: "15",
+    type: "quan",
+    img: [
+      "https://product.hstatic.net/1000366669/product/q282_f8e48896589e4019bf5e7c4df003a491_large.jpg",
+    ],
+    name: "QUẦN ÂU ADAM XANH GHI SỌC - Q282",
+    detail:
+      " Quần âu Adam đem lại vẻ đẹp chỉn chu, lịch lãm cho người mặc, phù hợp với nhiều độ tuổi, phom dáng. Với hoạ tiết ghi xước tạo điểm nhấn trẻ trung cho toàn bộ outfit, sản phẩm này sẽ trở thành một trong những item must have trong tủ đồ mỗi ngườ",
+    price: 850000 + " vnd",
+    sold: "Đã bán " + "6k cái",
+  },
+  {
+    id: "16",
+    type: "quan",
+    img: [
+      "https://product.hstatic.net/1000366669/product/_ntt3374__1__86539933fa1a4b0b9b665755b89a2902_large.jpg",
+      "https://product.hstatic.net/1000366669/product/ntt06852_30a01278b63f4328adb62ba2a524a0d5_large.jpg",
+    ],
+    name: "QUẦN XANH KẺ ĐEN LH64",
+    detail:
+      "Quần âu Hàn Quốc xanh kẻ đen LH64 may sẵn tôn dáng đủ size từ 55- 85kg. Gam màu xanh coban phối kẻ đen caro thời trang, form dáng slimfit trẻ trung dễ dàng phối đồ cùng sơ mi, giày tây,... phù hợp trong các buổi tiệc quan trọng, đi làm công sở hoặc đi chơi. Chất liệu nhập khẩu mỏng, nhẹ thoáng, thấm hút tốt, màu sắc đẹp sắc nét.",
+    price: 850000 + " vnd",
+    sold: "Đã bán " + "2k cái",
+  },
+  {
+    id: 17,
+    type: "quan",
+    img: [
+      "https://product.hstatic.net/1000366669/product/_ntt3408_e0dd7e2f5e914878857a244729f59dc1_large.jpg",
+    ],
+    name: "QUẦN ÂU ĐEN KẺ SỌC - Q286",
+    detail:
+      "Quần âu Adam đem lại vẻ đẹp chỉn chu, lịch lãm cho người mặc, phù hợp với nhiều độ tuổi, phom dáng. Với hoạ tiết kẻ tạo điểm nhấn, giúp những quý anh tự tin hơn về chiều cao nhờ ưu điểm hack dáng, sản phẩm này sẽ trở thành một trong những item must have trong tủ đồ mỗi người",
+    price: 900000 + " vnd",
+    sold: "Đã bán " + "6k cái",
+  },
+  {
+    id: 18,
+    type: "quan",
+    img: [
+      "https://product.hstatic.net/1000366669/product/ntt06821_b4e8361b423742fa8f6686ceb6c4d349_master.jpg",
+    ],
+    name: "QUẦN ADAM XANH 255",
+    detail:
+      "Quần âu Hàn Quốc xanh 255 may sẵn tôn dáng đủ size từ 55- 85kg. Gam màu da trời xanh pastel sáng trơn form dáng slimfit trẻ trung dễ dàng phối đồ cùng sơ mi, giày tây,... phù hợp trong các buổi tiệc quan trọng hoặc đi chơi. Chất liệu nhập khẩu mỏng, nhẹ thoáng, thấm hút tốt, màu sắc đẹp sắc nét.",
+    price: 890000 + " vnd",
+    sold: "Đã bán " + "6k cái",
+  },
+  {
+    id: 19,
+    type: "quan",
+    img: [
+      "https://product.hstatic.net/1000366669/product/ntt06842_ca19d8538f854cc6b73ce3fba8a04eea_large.jpg",
+      "https://product.hstatic.net/1000366669/product/11_q245_72f43e544e2a4eb0a88db24c249fb7df_large.jpg",
+    ],
+    name: "QUẦN ADAM XANH TT KẺ - 245",
+    detail:
+      "Quần âu Hàn Quốc xanh tt kẻ may sẵn tôn dáng đủ size từ 55- 85kg. Gam màu xanh tím than tối phối kẻ ô vuông trắng mờ tinh tế, form dáng slimfit trẻ trung dễ dàng phối đồ cùng sơ mi, giày tây,... phù hợp trong các buổi tiệc quan trọng, đi làm công sở hoặc đi chơi. Chất liệu nhập khẩu mỏng, nhẹ thoáng, thấm hút tốt, màu sắc đẹp sắc nét.",
+    price: 900000 + " vnd",
+    sold: "Đã bán " + "6k cái",
+  },
+  {
+    id: 20,
+    type: "quan",
+    img: [
+      "https://product.hstatic.net/1000366669/product/ntt06810_5f1bd63c97324e48bf4c5f2455dfb6e8_large.jpg",
+    ],
+    name: "QUẦN ADAM GHI KẺ TRẮNG LH70",
+    detail:
+      "Quần âu Hàn Quốc ghi kẻ trắng LH70 may sẵn tôn dáng đủ size từ 55- 85kg. Gam màu ghi xám lông chuột cổ điển phối caro kẻ ghi trắng thời trang, form dáng slimfit trẻ trung dễ dàng phối đồ cùng sơ mi, giày tây,... phù hợp trong các buổi tiệc quan trọng, đi làm công sở hoặc đi chơi. Chất liệu nhập khẩu mỏng, nhẹ thoáng, thấm hút tốt, màu sắc đẹp sắc nét.",
+    price: 790000 + " vnd",
+    sold: "Đã bán " + "6k cái",
+  },
 ];

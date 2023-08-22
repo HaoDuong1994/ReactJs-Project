@@ -9,6 +9,7 @@ import MainPage from "./Page/MainPage";
 import ProductPage from "./Page/ProductPage";
 import AccessoryPage from "./Page/AccessoryPage";
 import ContactPage from "./Page/ContactPage";
+import ProductPageDetail from "./Page/ProductPageDetail";
 function App() {
   useEffect(() => {
     document.title = "Shop quần áo";
@@ -22,6 +23,7 @@ function App() {
           <Route path="/product" element={<ProductPage />} />
           <Route path="/accessory" element={<AccessoryPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/product/:productID" element={<ProductPageDetail />} />
         </Routes>
       </Router>
     </>
