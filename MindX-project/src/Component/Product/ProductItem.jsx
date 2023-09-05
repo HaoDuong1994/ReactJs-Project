@@ -1,14 +1,16 @@
 import "./product.css";
 import { Link, NavLink } from "react-router-dom";
 function ProductItem(props) {
-  const { productItem } = props;
+  // if (props.productList === null) return null;
+  const { title, img, price, idUrl } = props.product;
+
   return (
     <div className="item-product">
-      <h4 className="productItem-name">{productItem.name}</h4>
-      <img className="item-product-img" src={productItem.img[0]} />
-      <p className="productItem-price">{productItem.price}</p>
+      <h4 className="productItem-name">{title}</h4>
+      <img className="item-product-img" src={img} />
+      <p className="productItem-price">{`${price} VND`}</p>
       <button className="productItem-btn">
-        <Link to={`/product/${productItem.name}`}>Xem chi tiết</Link>
+        <Link to={`/product/${idUrl}`}>Xem chi tiết</Link>
       </button>
     </div>
   );

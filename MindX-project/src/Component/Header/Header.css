@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(119, 85, 85);
+    background-color:#a50519;
     height: 50px;
     display:flex;
     justify-content: space-between;
@@ -11,4 +11,19 @@
     display: flex;
     justify-content: space-between;
     
+}
+.cart-icon{
+    width:24px;
+    height: 24px;
+    color:aliceblue;
+    margin-bottom: 5px;
+}
+.menu-cart{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.cart-wrapper{
+    display:flex;
 }

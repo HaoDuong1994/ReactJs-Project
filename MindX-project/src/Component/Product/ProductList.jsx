@@ -1,8 +1,14 @@
 import ProductItem from "./ProductItem";
 import { productList } from "./productsList";
 import "./product.css";
-
+import { FirebaseContext } from "../../firebase";
+import { useContext } from "react";
+import { doc, getDocs } from "firebase/firestore";
+import { useEffect } from "react";
+import { useState } from "react";
+import { ProductListContext } from "../../App";
 function ProductList() {
+  const { productList } = useContext(ProductListContext);
   console.log(productList);
   return (
     <div className="product-list-wrapper">
@@ -12,8 +18,8 @@ function ProductList() {
       />
       <h2>Tất cả sản phẩm</h2>
       <div className="list-item-product">
-        {productList.map((productItem) => {
-          return <ProductItem productItem={productItem} />;
+        {productList.map((product, index) => {
+          return <ProductItem key={index + 1} product={product} />;
         })}
       </div>
     </div>

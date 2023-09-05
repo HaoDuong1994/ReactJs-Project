@@ -30,3 +30,10 @@
   width: 600px;
   height: 400px;
 }
+.menu-link{
+  color:white;
+}
+.menu-link:hover{
+  background-color: white;
+  color:red;
+}
