@@ -8,7 +8,7 @@ function ProductItem(props) {
     <div className="item-product">
       <h4 className="productItem-name">{title}</h4>
       <img className="item-product-img" src={img} />
-      <p className="productItem-price">{`${price} VND`}</p>
+      <p className="productItem-price">{`${price}VND`}</p>
       <button className="productItem-btn">
         <Link to={`/product/${idUrl}`}>Xem chi tiết</Link>
       </button>
