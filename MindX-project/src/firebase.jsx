@@ -2,6 +2,7 @@ import { initializeApp } from "firebase/app";
 import { createContext } from "react";
 import { getFirestore } from "firebase/firestore";
 import { collection, addDoc } from "firebase/firestore";
+import { GoogleAuthProvider } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -23,11 +24,13 @@ export const FirebaseContext = createContext();
 const FirebaseProvider = ({ children }) => {
   const db = getFirestore(app);
   const productsCollection = collection(db, "products");
+  const googleProvider = new GoogleAuthProvider();
   return (
     <FirebaseContext.Provider
       value={{
         app,
         productsCollection,
+        googleProvider,
       }}>
       {children}
     </FirebaseContext.Provider>

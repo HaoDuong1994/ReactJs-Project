@@ -12,11 +12,26 @@ import { createContext, useContext } from "react";
 import { FirebaseContext } from "./firebase";
 import { doc, getDocs } from "firebase/firestore";
 import ProductIncartPage from "./Page/ProductIncartPage";
+import { onAuthStateChanged } from "firebase/auth";
 export const ProductListContext = createContext();
+import GoogleLogin from "./Component/LoginGoogle/GoogleLogin";
+import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 function App() {
+  const [loading, setLoading] = useState(true);
+  const { googleProvider } = useContext(FirebaseContext);
+  const authen = getAuth();
+  const [user, setUser] = useState(null);
+  const logInWithGoogle = async () => {
+    await signInWithPopup(authen, googleProvider);
+  };
+  useEffect(() => {
+    onAuthStateChanged(authen, (user) => {
+      setUser(user);
+      setLoading(false);
+    });
+  }, []);
   const [productList, setProductList] = useState([]);
   const [productInCart, setProductInCart] = useState([]);
-  console.log(productInCart);
   const addProductFromApp = (object) => {
     const newProduct = [...productInCart, object];
     setProductInCart(newProduct);
@@ -39,7 +54,11 @@ function App() {
     };
     getProductData();
   }, []);
-  if (productList === []) return null;
+  // if (productList === []) {
+  //   return null;
+  // }
+  if (loading) return <div>Loading...</div>;
+  if (user === null) return <GoogleLogin logInWithGoogle={logInWithGoogle} />;
   return (
     <>
       <ProductListContext.Provider
