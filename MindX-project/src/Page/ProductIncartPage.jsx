@@ -12,7 +12,7 @@ function ProductIncartPage(props) {
         <div className="item-wrapper">
           <div className="item-container">
             <div>Giỏ hàng bạn đang có {productInCart.length} sản phẩm</div>
-            <ProductListInCart />
+            <ProductListInCart productIncart={productInCart} />
             <div>
               <h4>Dịch vụ tại shop</h4>
               <ul>
@@ -33,7 +33,10 @@ function ProductIncartPage(props) {
               </ul>
             </div>
           </div>
-          <div className="item-payment-wrapper"></div>
+          <div className="item-payment-wrapper">
+            <div>Thông tin đơn hàng</div>
+            <div>Tổng cần thanh toán</div>
+          </div>
         </div>
       </div>
     </div>

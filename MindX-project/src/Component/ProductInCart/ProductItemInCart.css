@@ -1,0 +1,11 @@
+.img-item-incart{
+    width:80px;
+    height:80px;
+    background-color: rgb(57, 55, 53);
+}
+.product-item-wrapper{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,5 +1,5 @@
 .cart-page-wrapper{
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 100vh;
     display:flex;
     justify-content: center;
@@ -7,4 +7,16 @@
 .cart-page{
     width: 80%;
     background-color: white;
+}
+.item-wrapper{
+    display:flex;
+    gap: 20px;
+    /* background-color: burlywood; */
+}
+.item-container{
+    width:50%;
+    /* background-color: blueviolet; */
+}
+.item-payment-wrapper{
+    width: 50%;
 }

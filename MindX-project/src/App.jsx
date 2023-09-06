@@ -24,12 +24,12 @@ function App() {
   const logInWithGoogle = async () => {
     await signInWithPopup(authen, googleProvider);
   };
-  // useEffect(() => {
-  //   onAuthStateChanged(authen, (user) => {
-  //     setUser(user);
-  //     setLoading(false);
-  //   });
-  // }, []);
+  useEffect(() => {
+    onAuthStateChanged(authen, (user) => {
+      setUser(user);
+      setLoading(false);
+    });
+  }, []);
   const [productList, setProductList] = useState([]);
   const [productInCart, setProductInCart] = useState([]);
   const addProductFromApp = (object) => {
@@ -57,7 +57,7 @@ function App() {
   // if (productList === []) {
   //   return null;
   // }
-  // if (loading) return <div>Loading...</div>;
+  if (loading) return <div>Loading...</div>;
   if (user === null) return <GoogleLogin logInWithGoogle={logInWithGoogle} />;
   return (
     <>
