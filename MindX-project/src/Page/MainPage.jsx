@@ -3,7 +3,10 @@ import CoverImg from "../assets/img/fashion-sale-social-media-cover-post-banner-
 function MainPage() {
   return (
     <div className="main-page">
-      <img className="cover-img" src={CoverImg2} />
+      <img
+        className="cover-img"
+        src="https://m.media-amazon.com/images/S/abs-image-upload-na/7/AmazonStores/ATVPDKIKX0DER/315c5c1f39149b6b3bbe18f458cfdc8c.w1920.h500.jpg"
+      />
       <div className="main-context">
         <h2>Giới Thiệu</h2>
         <h4>I. Lịch sử hình thành</h4>
