@@ -5,7 +5,7 @@ function MainPage() {
     <div className="main-page">
       <img
         className="cover-img"
-        src="https://m.media-amazon.com/images/S/abs-image-upload-na/7/AmazonStores/ATVPDKIKX0DER/315c5c1f39149b6b3bbe18f458cfdc8c.w1920.h500.jpg"
+        src="https://ae01.alicdn.com/kf/Hf1c46c9b142c4432a42426959dea9a5c8.jpg"
       />
       <div className="main-context">
         <h2>Giới Thiệu</h2>

@@ -10,7 +10,9 @@ function ProductItem(props) {
       <img className="item-product-img" src={img} />
       <p className="productItem-price">{`${price}VND`}</p>
       <button className="productItem-btn">
-        <Link to={`/product/${idUrl}`}>Xem chi tiết</Link>
+        <Link className="btn-color" to={`/product/${idUrl}`}>
+          Xem chi tiết
+        </Link>
       </button>
     </div>
   );
