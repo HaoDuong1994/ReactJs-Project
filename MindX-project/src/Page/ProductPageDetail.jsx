@@ -11,7 +11,9 @@ import { ProductListContext } from "../App";
 function ProductPageDetail() {
   const { addProductFromApp } = useContext(ProductListContext);
   const [productDetail, setProductDetail] = useState({});
-  const [mainImg, setMainImg] = useState(productDetail?.img);
+  const [mainImg, setMainImg] = useState(
+    "https://5.imimg.com/data5/SELLER/Default/2023/4/298964821/EV/KO/FX/4475180/garment-display-rack.jpeg"
+  );
   const { productID } = useParams();
   const { productsCollection } = useContext(FirebaseContext);
   const singleData = doc(productsCollection, productID);

@@ -57,7 +57,13 @@ function App() {
   // if (productList === []) {
   //   return null;
   // }
-  if (loading) return <div>Loading...</div>;
+  if (loading)
+    return (
+      <div>
+        <p>Loading...</p>
+        <span className="spinner-border text-secondary"></span>
+      </div>
+    );
   if (user === null) return <GoogleLogin logInWithGoogle={logInWithGoogle} />;
   return (
     <>

@@ -4,6 +4,7 @@ function GoogleLogin(props) {
   return (
     <div>
       <button
+        className="btn btn-primary"
         onClick={() => {
           logInWithGoogle();
         }}>

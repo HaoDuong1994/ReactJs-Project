@@ -3,6 +3,7 @@ import ProductListInCart from "../Component/ProductInCart/ProductInCarList";
 function ProductIncartPage(props) {
   const { productInCart } = props;
   console.log(productInCart);
+
   return (
     <div className="cart-page-wrapper">
       <div className="cart-page">
@@ -34,8 +35,21 @@ function ProductIncartPage(props) {
             </div>
           </div>
           <div className="item-payment-wrapper">
-            <div>Thông tin đơn hàng</div>
-            <div>Tổng cần thanh toán</div>
+            <div>
+              <h2 className="item-payment-heading">Thông tin đơn hàng</h2>
+            </div>
+            <div className="payment-total">
+              <p>Tổng tiền</p>
+              <p className="payment-total-price">
+                {productInCart.reduce((totalPrice, currrentPrice) => {
+                  return totalPrice + Number(currrentPrice.price);
+                }, 0)}
+              </p>
+            </div>
+            <div className="voucher-content">
+              Bạn có thể nhập mã giảm giá khi thanh toán
+            </div>
+            <button className="btn btn-secondary">Thanh toán</button>
           </div>
         </div>
       </div>

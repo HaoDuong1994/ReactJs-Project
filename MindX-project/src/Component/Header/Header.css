@@ -28,3 +28,13 @@
 .cart-wrapper{
     display:flex;
 }
+.input-wrapper{
+    display:flex;
+}
+.color{
+    background-color:#6c757d;
+    border: solid 1px #6c757d;
+}
+.color:hover{
+    background-color: #878e93;
+}

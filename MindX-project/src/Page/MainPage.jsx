@@ -8,15 +8,15 @@ function MainPage() {
         <h2>Giới Thiệu</h2>
         <h4>I. Lịch sử hình thành</h4>
         <p>
-          Adam Store ra đời từ 2012, khởi đầu ở một cửa hàng nhỏ trên phố Lò
-          Đúc. Adam Store những ngày đầu được gây dựng bởi 3 chàng trai trẻ
+          MindX Store ra đời từ 2012, khởi đầu ở một cửa hàng nhỏ trên phố Lò
+          Đúc. MindX Store những ngày đầu được gây dựng bởi 3 chàng trai trẻ
           tuổi, ôm trong mình hoài bão thay đổi xu hướng thời trang Việt Nam.
           Bằng đam mê với vest và bằng những cố gắng bền bỉ trong từng giây
-          phút, Adam Store đã tiên phong trong ngành thời trang, thay đổi tư duy
-          khách hàng, trở thành thương hiệu Việt Nam lớn nhất trong thị phần
+          phút, MindX Store đã tiên phong trong ngành thời trang, thay đổi tư
+          duy khách hàng, trở thành thương hiệu Việt Nam lớn nhất trong thị phần
           vest may sẵn, là thương hiệu uy tín về đồ Âu cho nam giới.
         </p>
-        <h4>II. 5 lý do khách hàng nên mua sản phẩm của Adam Store</h4>
+        <h4>II. 5 lý do khách hàng nên mua sản phẩm của MindX Store</h4>
         <h4>1. Nhiều size nhất, sát người dùng nhất</h4>
         <p>
           Nếu các thương hiệu khác chỉ có 3 sizes cho khách hàng thì ở Adam
@@ -29,10 +29,10 @@ function MainPage() {
         />
         <h4>2. Hệ thống hơn 71 cửa hàng toàn quốc</h4>
         <div>
-          Adam Store giờ đây có hệ thống hơn 60 cửa hàng trên 35 tỉnh thành Việt
-          Nam và vẫn đang tiếp tục mở rộng phủ kín Việt Nam. Với việc hỗ trợ mua
-          hàng online, khách hàng hoàn toàn có thể sở hữu được trang phục Adam
-          Store một cách dễ dàng.
+          MindX Store giờ đây có hệ thống hơn 60 cửa hàng trên 35 tỉnh thành
+          Việt Nam và vẫn đang tiếp tục mở rộng phủ kín Việt Nam. Với việc hỗ
+          trợ mua hàng online, khách hàng hoàn toàn có thể sở hữu được trang
+          phục Adam Store một cách dễ dàng.
         </div>
         <img
           className="center"
@@ -40,7 +40,7 @@ function MainPage() {
         />
         <h4>4. Phom dáng được tối ưu cho người Việt</h4>
         <div>
-          Adam Store qua 5 năm đã có hơn 40 lần điều chỉnh các phom dáng thiết
+          MindX Store qua 5 năm đã có hơn 40 lần điều chỉnh các phom dáng thiết
           kế dựa trên sự phản hồi của khách hàng và ý kiến của các chuyên gia
           hơn 20 năm kinh nghiệp. Chúng tôi đã tạo ra được những mẫu phù hợp
           nhất cho khách hàng để che dấu đi những nhược điểm của người Việt.
@@ -62,7 +62,7 @@ function MainPage() {
         <div>
           Hơn hết, chúng tôi hiểu rằng nhu cầu của mỗi quý khách hàng là tìm ra
           được những sản phẩm đẹp không chỉ về mẫu mã, kiểu dáng, chất liệu mà
-          hợp lý về giá thành. Hãy để Adam Store mang tất cả những điều đó đến
+          hợp lý về giá thành. Hãy để MindX Store mang tất cả những điều đó đến
           với quý vị khách hàng!
         </div>
         <br></br>

@@ -28,13 +28,20 @@ function Header(props) {
             </NavLink>
           </div>
         </nav>
-        <div>
-          <input type="text" placeholder="Tìm kiếm sản phẩm" />
+        <div className="input-wrapper">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Tìm kiếm sản phẩm"
+          />
+          <button className="btn btn-success color" type="submit">
+            Nhập
+          </button>
         </div>
-        <div>
+        {/* <div>
           <button>Sign up</button>
           <button>Sign in</button>
-        </div>
+        </div> */}
         <div className="menu-cart">
           <p className="menu-link" style={{ marginTop: "12px" }}>
             Trang cá nhân
