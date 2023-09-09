@@ -17,6 +17,7 @@ export const ProductListContext = createContext();
 import GoogleLogin from "./Component/LoginGoogle/GoogleLogin";
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 function App() {
+  const [searchProduct, setSearchProduct] = useState([]);
   const [loading, setLoading] = useState(true);
   const { googleProvider } = useContext(FirebaseContext);
   const authen = getAuth();
@@ -57,6 +58,13 @@ function App() {
   // if (productList === []) {
   //   return null;
   // }
+  const handleSearch = (value) => {
+    const newProduct = productList.filter((product) => {
+      return product.title.toLowerCase().includes(value);
+    });
+    setSearchProduct(newProduct);
+  };
+  console.log(searchProduct);
   if (loading)
     return (
       <div>
@@ -71,6 +79,7 @@ function App() {
         value={{
           productList,
           addProductFromApp,
+          handleSearch,
         }}>
         <Router>
           <Header productInCart={productInCart} />

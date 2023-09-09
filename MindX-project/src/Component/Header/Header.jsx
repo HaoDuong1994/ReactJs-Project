@@ -1,7 +1,18 @@
 import "./Header.css";
+import { useRef } from "react";
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ProductListContext } from "../../App";
 function Header(props) {
+  const { productList, handleSearch } = useContext(ProductListContext);
+  console.log(productList);
+  const textInput = useRef();
+  const newProductList = productList.filter((product) => {
+    return product.title.toLowerCase().includes("quan");
+  });
+  console.log(newProductList);
+
   return (
     <div>
       <header className="header">
@@ -30,11 +41,17 @@ function Header(props) {
         </nav>
         <div className="input-wrapper">
           <input
+            ref={textInput}
             type="text"
             className="form-control"
             placeholder="Tìm kiếm sản phẩm"
           />
-          <button className="btn btn-success color" type="submit">
+          <button
+            onClick={() => {
+              handleSearch(textInput.current.value);
+            }}
+            className="btn btn-success color"
+            type="submit">
             Nhập
           </button>
         </div>

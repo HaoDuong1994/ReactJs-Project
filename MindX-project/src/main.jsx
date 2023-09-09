@@ -4,9 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import FirebaseProvider from "./firebase.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <FirebaseProvider>
-      <App />
-    </FirebaseProvider>
-  </React.StrictMode>
+  <FirebaseProvider>
+    <App />
+  </FirebaseProvider>
 );
