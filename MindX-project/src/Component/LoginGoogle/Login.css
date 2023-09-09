@@ -1,0 +1,19 @@
+.authen-container{
+    background-color: brown;
+    height: 100vh;
+    display:flex;
+    gap:10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-wrapper{
+    width:400px;
+    height:482px;
+    background-color: aquamarine;
+}
+.sign-in-wrapper{
+    width:400px;
+    height:482px;
+    background-color:blue;
+}
