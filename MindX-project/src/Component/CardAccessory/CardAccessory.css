@@ -1,0 +1,61 @@
+.wrap-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+    padding: 8px;
+    height: 400px;
+    overflow: hidden;
+
+    transition:  0.2s;
+}
+
+.wrap-card:hover {
+    transform: scale(1.005);
+}
+
+.card__head {
+    text-align: center;
+    flex: 1;
+}
+
+.card__head > a:hover {
+    text-decoration: none;
+    
+}
+
+.card__title {
+    color: #555;
+}
+
+.card__title:hover {
+    color: #000;
+}
+
+.card__body {
+    height: 250px;
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+}
+
+.card__img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition:  0.2s;
+}
+
+
+
+.card__footer {
+    text-align: center;
+}
+
+.card__price {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+}

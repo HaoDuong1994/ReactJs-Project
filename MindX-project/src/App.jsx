@@ -19,6 +19,7 @@ import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
 } from "firebase/auth";
+import ProfilePage from "./Page/ProfilePage";
 function App() {
   const [searchProduct, setSearchProduct] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -102,6 +103,7 @@ function App() {
             <Route path="/product" element={<ProductPage />} />
             <Route path="/accessory" element={<AccessoryPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/profile" element={<ProfilePage />} />
             <Route path="/product/:productID" element={<ProductPageDetail />} />
             <Route
               path="/cartProduct"

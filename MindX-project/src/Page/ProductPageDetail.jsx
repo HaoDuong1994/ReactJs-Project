@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import ProductList from "../Component/Product/ProductList";
-import { productList } from "../Component/Product/productsList";
+// import ProductList from "../Component/Product/ProductList"; // Ở đây cũng lỗi
+// import { productList } from "../Component/Product/productsList"; // Ở đây cũng lỗi
 import { FirebaseContext } from "../firebase";
 import { useContext } from "react";
 import { useEffect } from "react";
@@ -24,7 +24,7 @@ function ProductPageDetail() {
     };
     productDetailData();
   }, [productID]);
-  if (productDetail === {}) return null;
+  // if (productDetail === {}) return null; Chổ này lỗi khi chạy á anh
   return (
     <div>
       <div className="product-container">

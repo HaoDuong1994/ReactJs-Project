@@ -1,11 +1,11 @@
 import ProductItem from "./ProductItem";
-import { productList } from "./productsList";
+// import { productList } from "./productsList"; Chổ này lỗi
 import "./product.css";
-import { FirebaseContext } from "../../firebase";
+// import { FirebaseContext } from "../../firebase"; chổ này lỗi
 import { useContext } from "react";
-import { doc, getDocs } from "firebase/firestore";
-import { useEffect } from "react";
-import { useState } from "react";
+// import { doc, getDocs } from "firebase/firestore"; chổ này lỗi
+// import { useEffect } from "react"; chổ này lỗi
+// import { useState } from "react"; chổ này lỗi
 import { ProductListContext } from "../../App";
 function ProductList() {
   const { productList } = useContext(ProductListContext);
