@@ -12,25 +12,17 @@ import { createContext, useContext } from "react";
 import { FirebaseContext } from "./firebase";
 import { doc, getDocs } from "firebase/firestore";
 import ProductIncartPage from "./Page/ProductIncartPage";
-import { onAuthStateChanged } from "firebase/auth";
 export const ProductListContext = createContext();
 import GoogleLogin from "./Component/LoginGoogle/GoogleLogin";
-import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+import {
+  getAuth,
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+} from "firebase/auth";
 function App() {
   const [searchProduct, setSearchProduct] = useState([]);
   const [loading, setLoading] = useState(true);
-  const { googleProvider } = useContext(FirebaseContext);
-  const authen = getAuth();
   const [user, setUser] = useState(null);
-  const logInWithGoogle = async () => {
-    await signInWithPopup(authen, googleProvider);
-  };
-  useEffect(() => {
-    onAuthStateChanged(authen, (user) => {
-      setUser(user);
-      setLoading(false);
-    });
-  }, []);
   const [productList, setProductList] = useState([]);
   const [productInCart, setProductInCart] = useState([]);
   const addProductFromApp = (object) => {
@@ -40,12 +32,13 @@ function App() {
   useEffect(() => {
     document.title = "Shop quần áo";
   }, []);
-  const { productsCollection } = useContext(FirebaseContext);
+  const { productsCollection, app } = useContext(FirebaseContext);
+  const authen = getAuth(app);
+
   useEffect(() => {
     const getProductData = async () => {
       const data = await getDocs(productsCollection);
       let finalData = [];
-
       data.forEach((doc) => {
         let object = doc.data();
         object.idUrl = doc.id;
@@ -55,9 +48,6 @@ function App() {
     };
     getProductData();
   }, []);
-  // if (productList === []) {
-  //   return null;
-  // }
   const handleSearch = (value) => {
     const newProduct = productList.filter((product) => {
       return product.title.toLowerCase().includes(value);
@@ -65,14 +55,38 @@ function App() {
     setSearchProduct(newProduct);
   };
   console.log(searchProduct);
-  if (loading)
+  const handleSubmitSignIn = (e) => {
+    e.preventDefault();
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+    signInWithEmailAndPassword(authen, email, password);
+    setUser("Sucess");
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(e.target.email.value);
+    const email = e.target.email.value;
+    const password = e.target.password.value;
+    createUserWithEmailAndPassword(authen, email, password).then((data) => {
+      console.log(data);
+      setUser("Sucess");
+    });
+  };
+  // if (loading)
+  //   return (
+  //     <div>
+  //       <p>Loading...</p>
+  //       <span className="spinner-border text-secondary"></span>
+  //     </div>
+  //   );
+  console.log(user);
+  if (user === null)
     return (
-      <div>
-        <p>Loading...</p>
-        <span className="spinner-border text-secondary"></span>
-      </div>
+      <GoogleLogin
+        handleSubmit={handleSubmit}
+        handleSubmitSignIn={handleSubmitSignIn}
+      />
     );
-  if (user === null) return <GoogleLogin logInWithGoogle={logInWithGoogle} />;
   return (
     <>
       <ProductListContext.Provider

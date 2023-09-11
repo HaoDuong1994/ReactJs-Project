@@ -24,13 +24,12 @@ export const FirebaseContext = createContext();
 const FirebaseProvider = ({ children }) => {
   const db = getFirestore(app);
   const productsCollection = collection(db, "products");
-  const googleProvider = new GoogleAuthProvider();
+
   return (
     <FirebaseContext.Provider
       value={{
         app,
         productsCollection,
-        googleProvider,
       }}>
       {children}
     </FirebaseContext.Provider>

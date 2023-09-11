@@ -1,5 +1,5 @@
 .authen-container{
-    background-color: brown;
+    background-image:url(https://wallpaper.dog/large/10907455.jpg);
     height: 100vh;
     display:flex;
     gap:10rem;
@@ -10,10 +10,40 @@
 .sign-up-wrapper{
     width:400px;
     height:482px;
-    background-color: aquamarine;
+    background-color: rgb(145, 145, 161);
+    border-radius: 10px;
+    padding: 5px;
 }
 .sign-in-wrapper{
     width:400px;
     height:482px;
-    background-color:blue;
+    background-color:rgb(145, 145, 161);
+    padding: 5px;
+    border-radius: 10px;
+}
+.input-login{
+    width: 338px;
+    height: 38px;
+}
+.form-login{
+    display:flex;
+    gap:6px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-submit{
+    width: 338px;
+    height: 38px;
+    background-color: #ee4d2d;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.btn-submit:hover{
+    font-style:initial;
+    background-color: #f0765e;
+}
+.heading{
+    color: yellow;
 }
