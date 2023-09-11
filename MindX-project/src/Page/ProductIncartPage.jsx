@@ -1,8 +1,11 @@
 import "./ProductInCart.css";
 import ProductListInCart from "../Component/ProductInCart/ProductInCarList";
+import { useState } from "react";
 function ProductIncartPage(props) {
   const { productInCart } = props;
   console.log(productInCart);
+  const [quantity, setQuantity] = useState(1);
+  
 
   return (
     <div className="cart-page-wrapper">
@@ -13,7 +16,7 @@ function ProductIncartPage(props) {
         <div className="item-wrapper">
           <div className="item-container">
             <div>Giỏ hàng bạn đang có {productInCart.length} sản phẩm</div>
-            <ProductListInCart productIncart={productInCart} />
+            <ProductListInCart productIncart={productInCart} quantity={quantity} setQuantity={setQuantity}/>
             <div>
               <h4>Dịch vụ tại shop</h4>
               <ul>
@@ -42,7 +45,7 @@ function ProductIncartPage(props) {
               <p>Tổng tiền</p>
               <p className="payment-total-price">
                 {productInCart.reduce((totalPrice, currrentPrice) => {
-                  return totalPrice + Number(currrentPrice.price);
+                  return (totalPrice + Number(currrentPrice.price)) * quantity;
                 }, 0)}
               </p>
             </div>

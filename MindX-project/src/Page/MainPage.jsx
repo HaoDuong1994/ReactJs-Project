@@ -1,5 +1,5 @@
-import CoverImg2 from "../assets/img/coverPhoto.jpg";
-import CoverImg from "../assets/img/fashion-sale-social-media-cover-post-banner-template_636037-97.jpg";
+// import CoverImg2 from "../assets/img/coverPhoto.jpg"; lỗi chổ này nữa anh
+// import CoverImg from "../assets/img/fashion-sale-social-media-cover-post-banner-template_636037-97.jpg"; lỗi chổ này nữa
 function MainPage() {
   return (
     <div className="main-page">

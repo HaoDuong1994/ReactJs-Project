@@ -1,5 +1,5 @@
+import { Link } from "react-router-dom";
 import "./product.css";
-import { Link, NavLink } from "react-router-dom";
 function ProductItem(props) {
   // if (props.productList === null) return null;
   const { title, img, price, idUrl } = props.product;

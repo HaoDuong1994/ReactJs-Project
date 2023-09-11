@@ -2,7 +2,7 @@ import "./Header.css";
 import { useRef } from "react";
 import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ProductListContext } from "../../App";
 function Header(props) {
   const { productList, handleSearch } = useContext(ProductListContext);
@@ -60,9 +60,9 @@ function Header(props) {
           <button>Sign in</button>
         </div> */}
         <div className="menu-cart">
-          <p className="menu-link" style={{ marginTop: "12px" }}>
+          <Link to={"/profile"} className="menu-link" style={{ marginTop: "12px" }}>
             Trang cá nhân
-          </p>
+          </Link>
           <div className="cart-wrapper">
             <Link to="/cartProduct">
               <div className="cart-icon">
