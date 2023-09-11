@@ -8,8 +8,9 @@ import { useContext } from "react";
 // import { useState } from "react"; chổ này lỗi
 import { ProductListContext } from "../../App";
 function ProductList() {
-  const { productList } = useContext(ProductListContext);
+  const { productList, searchProduct } = useContext(ProductListContext);
   console.log(productList);
+  console.log(searchProduct);
   return (
     <div className="product-list-wrapper">
       <img
@@ -18,9 +19,13 @@ function ProductList() {
       />
       <h2>Tất cả sản phẩm</h2>
       <div className="list-item-product">
-        {productList.map((product, index) => {
-          return <ProductItem key={index + 1} product={product} />;
-        })}
+        {searchProduct.length !== 0
+          ? searchProduct.map((product, index) => {
+              return <ProductItem key={index + 1} product={product} />;
+            })
+          : productList.map((product, index) => {
+              return <ProductItem key={index + 1} product={product} />;
+            })}
       </div>
     </div>
   );

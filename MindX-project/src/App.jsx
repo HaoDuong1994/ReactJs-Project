@@ -46,6 +46,7 @@ function App() {
         finalData.push(object);
       });
       setProductList(finalData);
+      setLoading(false);
     };
     getProductData();
   }, []);
@@ -73,14 +74,14 @@ function App() {
       setUser("Sucess");
     });
   };
-  // if (loading)
-  //   return (
-  //     <div>
-  //       <p>Loading...</p>
-  //       <span className="spinner-border text-secondary"></span>
-  //     </div>
-  //   );
-  console.log(user);
+  if (loading)
+    return (
+      <div>
+        <p>Loading...</p>
+        <span className="spinner-border text-secondary"></span>
+      </div>
+    );
+
   if (user === null)
     return (
       <GoogleLogin
@@ -95,6 +96,7 @@ function App() {
           productList,
           addProductFromApp,
           handleSearch,
+          searchProduct,
         }}>
         <Router>
           <Header productInCart={productInCart} />
