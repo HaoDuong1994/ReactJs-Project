@@ -4,7 +4,7 @@ import { useState } from "react";
 function ProductIncartPage(props) {
   const { productInCart } = props;
   console.log(productInCart);
-  const [quantity, setQuantity] = useState(1);
+  const [totalQuantity, setTotalQuantity] = useState(productInCart.length);
   
 
   return (
@@ -16,7 +16,7 @@ function ProductIncartPage(props) {
         <div className="item-wrapper">
           <div className="item-container">
             <div>Giỏ hàng bạn đang có {productInCart.length} sản phẩm</div>
-            <ProductListInCart productIncart={productInCart} quantity={quantity} setQuantity={setQuantity}/>
+            <ProductListInCart productIncart={productInCart} setTotalQuantity={setTotalQuantity}/>
             <div>
               <h4>Dịch vụ tại shop</h4>
               <ul>
@@ -45,7 +45,7 @@ function ProductIncartPage(props) {
               <p>Tổng tiền</p>
               <p className="payment-total-price">
                 {productInCart.reduce((totalPrice, currrentPrice) => {
-                  return (totalPrice + Number(currrentPrice.price)) * quantity;
+                  return (totalPrice + Number(currrentPrice.price)) * totalQuantity;
                 }, 0)}
               </p>
             </div>

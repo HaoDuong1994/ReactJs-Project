@@ -1,12 +1,16 @@
+import { useState } from "react";
 import ProductItemInCart from "./ProductInCarItem";
 function ProductListInCart(props) {
   console.log(props);
-  const { productIncart,setQuantity,quantity } = props;
+  const { productIncart,setTotalQuantity } = props;
+  const [quantity, setQuantity] = useState(1);
+
+
   console.log(productIncart);
   return (
     <div style={{ marginBottom: "5px" }}>
       {productIncart.map((product,index) => {
-        return <ProductItemInCart key={index} productIncartItem={product} quantity={quantity} setQuantity={setQuantity} />;
+        return <ProductItemInCart setTotalQuantity={setTotalQuantity} key={index} productIncartItem={product} quantity={quantity} onPlus={() => setQuantity(prev => ++prev)} />;
       })}
     </div>
   );
