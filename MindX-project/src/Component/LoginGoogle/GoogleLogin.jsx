@@ -5,7 +5,7 @@ function GoogleLogin(props) {
   console.log(handleSubmit);
   return (
     <div className="authen-container">
-      <h2 className="heading">Welcome to Raymond Shop</h2>
+      <h2 className="heading">Welcome to MindX Shop</h2>
       <div className="sign-up-wrapper">
         <form
           className="form-login"
