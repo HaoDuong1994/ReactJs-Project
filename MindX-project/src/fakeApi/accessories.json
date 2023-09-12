@@ -1,213 +1,194 @@
 [
- {
+  {
     "id": 1,
     "title": "Air pod pro 1",
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYdTvJEGRogzU4cN7BV1yJtTV-h-3CbOkXg&usqp=CAU",
     "price": 100000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 2,
     "title": "Air pod pro 2",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYdTvJEGRogzU4cN7BV1yJtTV-h-3CbOkXg&usqp=CAU",
+    "img": "data:image/jpeg;base64,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",
     "price": 120000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 3,
     "title": "Air pod pro 3",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYdTvJEGRogzU4cN7BV1yJtTV-h-3CbOkXg&usqp=CAU",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWQ2prfxbvRMoVciDtwXSE_Nl_qnx0o5egrw&usqp=CAU",
     "price": 110000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 4,
     "title": "Air pod pro 2020",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYdTvJEGRogzU4cN7BV1yJtTV-h-3CbOkXg&usqp=CAU",
+    "img": "https://media.karousell.com/media/photos/products/2023/7/13/ipod_pro_1689227839_90ecb0b2.jpg",
     "price": 95000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 5,
     "title": "Air pod pro 2023",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYdTvJEGRogzU4cN7BV1yJtTV-h-3CbOkXg&usqp=CAU",
+    "img": "https://cdn.tgdd.vn/Products/Images/54/290053/s16/airpods-3-23-650x650.png",
     "price": 80000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 6,
     "title": "Air pod 1",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYdTvJEGRogzU4cN7BV1yJtTV-h-3CbOkXg&usqp=CAU",
+    "img": "https://hips.hearstapps.com/hmg-prod/images/wh-index-2000x1000-appkeairpodpro-1675797080.jpeg",
     "price": 85000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 7,
     "title": "Air pod 5",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYdTvJEGRogzU4cN7BV1yJtTV-h-3CbOkXg&usqp=CAU",
+    "img": "https://www.cultofmac.com/wp-content/uploads/2022/09/AirPods-Pro-2-with-case.jpg",
     "price": 90000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 8,
     "title": "Air pod limited",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYdTvJEGRogzU4cN7BV1yJtTV-h-3CbOkXg&usqp=CAU",
+    "img": "https://www.iphone-droid.net/wp-content/uploads/2022/10/Review-AirPodsPro2-01.jpg",
     "price": 95000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 9,
     "title": "Air pod 2019",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYdTvJEGRogzU4cN7BV1yJtTV-h-3CbOkXg&usqp=CAU",
+    "img": "https://media.cnn.com/api/v1/images/stellar/prod/220921163441-airpods-pro-2-review-1.jpg?c=original",
     "price": 98000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 10,
     "title": "Air pod AI",
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYdTvJEGRogzU4cN7BV1yJtTV-h-3CbOkXg&usqp=CAU",
+    "img": "https://i.gadgets360cdn.com/large/apple_airpods_pro_2_review_main_1664951347941.jpg",
     "price": 105000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
-
   {
     "id": 11,
     "title": "Giày Nike AF One",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "img": "https://lzd-img-global.slatic.net/g/p/398a67528d40e30443dfac228ff09557.jpg_360x360q75.jpg_.webp",
     "price": 200000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 12,
     "title": "Giày Nike AF One 2023",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "img": "https://sg-live-01.slatic.net/p/3dd64f00562ca33bc199e240b6bbda11.jpg",
     "price": 180000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 13,
     "title": "Giày Nike",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "img": "https://goccuanho.com/wp-content/uploads/2021/12/Gia%CC%80y-Nike-AF1-rep-11-tra%CC%86%CC%81ng-hinh-1.jpg",
     "price": 220000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 14,
     "title": "Giày Nike AF 2021",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "img": "https://static.nike.com/a/images/t_default/nqawpuyunirt3l50lgc8/air-force-1-shadow-damenschuhe-s07s35.png",
     "price": 195000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 15,
     "title": "Giày Nike AF1 2023",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "img": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fwp-content%2Fblogs.dir%2F6%2Ffiles%2F2018%2F07%2Fnike-air-force-1-jester-xx-triple-black-1-1.jpg?cbr=1&q=90",
     "price": 210000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 16,
     "title": "Giày 6",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "img": "https://shopgiayreplica.com/wp-content/uploads/2022/06/nike-af1-custom-paisley.jpg",
     "price": 185000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 17,
     "title": "Giày 7",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "img": "https://sneakerhanoi.com/cdn1/images/202302/goods_img/giay-nike-air-force-1-low-tu-bigbang-paisley-day-thung-P2271-1675854217421.jpg",
     "price": 230000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 18,
     "title": "Giày 8",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "img": "https://giaysneaker.com.vn/public/media//giay-nike-air-force-1-af1-white-moc-den-sieu-cap-1.jpg",
     "price": 215000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 19,
     "title": "Giày 9",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "img": "https://btsneaker.vn/wp-content/uploads/2021/09/giay-nike-air-force-1-be-sua-rep-11-2.jpg",
     "price": 240000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 20,
     "title": "Giày 10",
     "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
     "price": 225000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 21,
-    "title": "Sản phẩm 1",
+    "title": "Túi sách LV",
     "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
     "price": 150000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 22,
-    "title": "Sản phẩm 2",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "title": "Túi xách tay phối khóa kim loại - SAT 0309 - Màu tím Vascara",
+    "img": "https://www.vascara.com/uploads/cms_productmedia/2023/February/21/tui-xach-tay-phoi-khoa-kim-loai---sat-0309---mau-tim__68361__1676954881.jpg",
     "price": 170000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 23,
-    "title": "Sản phẩm 3",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "title": "Túi xách nữ cao cấp hàng hiệu đẹp đeo chéo Just Star NJ050 - Tina Shop",
+    "img": "https://tina.shop/wp-content/uploads/2022/04/tui-xach-nu-cao-cap-hang-hieu-dep-deo-cheo-just-star-nj050-A.jpg",
     "price": 160000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   },
   {
     "id": 24,
-    "title": "Sản phẩm 4",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
+    "title": "túi xách đẹp nhất quận Hoàng Mai, Hà Nội - toplist.vn",
+    "img": "https://toplist.vn/images/800px/tui-xach-nu-her-93-469144.jpg",
     "price": 145000,
-    "idUrl": ""
-  },
-  {
-    "id": 25,
-    "title": "Sản phẩm 5",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
-    "price": 130000,
-    "idUrl": ""
-  },
-  {
-    "id": 26,
-    "title": "Sản phẩm 6",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
-    "price": 140000,
-    "idUrl": ""
-  },
-  {
-    "id": 27,
-    "title": "Sản phẩm 7",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
-    "price": 155000,
-    "idUrl": ""
-  },
-  {
-    "id": 28,
-    "title": "Sản phẩm 8",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
-    "price": 135000,
-    "idUrl": ""
-  },
-  {
-    "id": 29,
-    "title": "Sản phẩm 9",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
-    "price": 125000,
-    "idUrl": ""
-  },
-  {
-    "id": 30,
-    "title": "Sản phẩm 10",
-    "img": "https://giaynation.com/wp-content/uploads/2022/07/Gia%CC%80y-Nike-Af1-sie%CC%82u-ca%CC%82%CC%81p-den-tra%CC%86%CC%81ng-.jpg",
-    "price": 165000,
-    "idUrl": ""
+    "idUrl": "",
+    "desc": "Giới thiệu MacBook Air 15 inch mới với M2, Mac Studio với M2 Max và M2 Ultra, Mac Pro với M2 Ultra, và các bản xem trước của iOS 17, iPadOS 17, macOS Sonoma, và watchOS 10."
   }
 ]
