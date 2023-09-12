@@ -16,7 +16,14 @@ function Header(props) {
   return (
     <div>
       <header className="header">
-        <div className="menu-link">Logo</div>
+        <div className="menu-link">
+          <Link to="/product">
+            <img
+              className="logo-heading"
+              src="https://img.freepik.com/premium-vector/white-man-logo-design-man-with-suit-hat_498048-816.jpg"
+            />
+          </Link>
+        </div>
         <nav className="nav-item">
           <div>
             <NavLink className="menu-link" to="/">
@@ -60,7 +67,10 @@ function Header(props) {
           <button>Sign in</button>
         </div> */}
         <div className="menu-cart">
-          <Link to={"/profile"} className="menu-link" style={{ marginTop: "12px" }}>
+          <Link
+            to={"/profile"}
+            className="menu-link"
+            style={{ marginTop: "12px" }}>
             Trang cá nhân
           </Link>
           <div className="cart-wrapper">
